@@ -1,0 +1,8 @@
+[Unit]
+Description=Ecris le nom du meilleur jeu du monde
+
+[Service]
+Type=oneshot
+ExecStart=/bin/best_game_of_the_world.sh
+Restart=always
+RestartSec=15
