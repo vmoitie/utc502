@@ -1,0 +1,2 @@
+~$ cat episode1/ex1/a.txt
+Bonjour tout le monde
