@@ -1,0 +1,11 @@
+[Unit]
+Description=Pseudo antivirus qui cherche et supprime FindMe.txt
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/findme.sh
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=mutli-user.target
